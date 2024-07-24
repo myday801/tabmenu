@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tab-btn {
+  padding: 20px 24px;
+  border-bottom: 1px solid #eee;
+}
+
+.blue {
+  border-top: 1px solid blue;
+  border-bottom: 0;
+}
+
+.tab-content {
+  display: none;
+  margin-top: 20px;
+  font-size: 24px;
+}
+
+.show {
+  display: block;
+}
